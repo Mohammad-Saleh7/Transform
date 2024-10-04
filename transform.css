@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f4d0f8;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30PX;
+    align-items: center;
+}
+.box{
+    width: 220px;
+    height: 160px;
+    border: 2px solid white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 30px;
+}
+.bg{
+    height: 120px;
+    width: 120px;
+    background-color: #c3c3c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.purple{
+    width: 120px;
+    height: 120px;
+    background-color: #c974d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s;
+}
+.box1:hover{
+    transform: rotate(45deg);
+    opacity: (0.75);
+}
+.box2:hover{
+    transform: scaleY(0.75);
+    opacity: 0.75;
+}
+.box3:hover{
+    transform: scalex(0.75);
+    opacity: 0.75;
+}
+.box4:hover{
+    transform: scale(2);
+    opacity: 0.75;
+}
+.box5:hover{
+    transform: scalex(2);
+    opacity: 0.75;
+}
+.box6:hover{
+    transform: scaley(2);
+    opacity: 0.75;
+}
+.box7:hover{
+    transform: skew(45deg);
+    opacity: 0.75;
+}
+.box8:hover{
+    transform: skewy(45deg);
+    opacity: 0.75;
+}
+.box9:hover{
+    transform: translate(50px,20px);
+    opacity: 0.75;
+}
+.box10:hover{
+    transform: translate(50px);
+    opacity: 0.75;
+}
+.box11:hover{
+    transform: translatey(50px);
+    opacity: 0.75;
+}
+.box12:hover{
+    transform: skewy(45deg) scale(1.5);
+    opacity: 0.75;
+}
+.box13:hover{
+    transform: perspective(130px) rotatex(45deg);
+    opacity: 0.75;
+}
+.box14:hover{
+    transform: perspective(130px) rotatey(45deg);
+    opacity: 0.75;
+}
+.box15:hover{
+    transform-origin:top right;
+    transform: rotate(45deg);
+    opacity: 0.75;
+}
+.box16:hover{
+    transform-origin:bottom left;
+    transform: rotate(45deg);
+    opacity: 0.75;
+}
+.box17:hover{
+    transform-origin: bottom;
+    transform: perspective(330px) rotatex(45deg);
+    opacity: 0.75;
+}
+.box18:hover{
+    transform-origin: top ;
+    transform: perspective(480px) rotatex(45deg);
+    opacity: 0.75;
+}
+.box19:hover{
+    transform-origin:left;
+    transform: perspective(400px) rotatey(45deg);
+    opacity: 0.75;
+}
+.box20:hover{
+    transform-origin:right;
+    transform: perspective(650px) rotatey(45deg);
+    opacity: 0.75;
+}
+.box21:hover{
+    transform-origin:top right;
+    transform: scale(2);
+    opacity: 0.75;
+}
+.box22:hover{
+    transform-origin:bottom left;
+    transform: scale(2);
+    opacity: 0.75;
+}
+.box23:hover{
+    transform-origin:right;
+    transform: scalex(2);
+    opacity: 0.75;
+}
+.box24:hover{
+    transform-origin:left;
+    transform: scalex(2);
+    opacity: 0.75;
+}
+.box25:hover{
+    transform-origin:top;
+    transform: scaley(2);
+    opacity: 0.75;
+}
+.box26:hover{
+    transform-origin:bottom;
+    transform: scaley(2);
+    opacity: 0.75;
+}
